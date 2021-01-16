@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  <title>资源工具</title>
+  <title>Server2019</title>
   <style>
   
     /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -670,7 +670,7 @@
 <body>
 <div class="container text-center" id="app">
   <h1>{{title}}</h1>
-  <p class="sub-title fs-20">软件大小：{{size}} MB</p>
+  <p class="sub-title fs-20">软件大小：{{size}} GB</p>
   <div class="macwk-download-section">
     <div class="inner-container">
       <div class="main-content">
@@ -686,7 +686,7 @@
           {{item.name}}
         </a>
       </div>
-      <p style="margin-top: 80px; opacity: .6; font-size: 12px">IT.LiangYuFeng.com - IT技术</p>
+      <p style="margin-top: 80px; opacity: .6; font-size: 12px">IT.LiangYuFeng.com</p>
     </div>
   </div>
   <div class="panel" v-bind:class="{ 'is--open': panelShow }">
@@ -722,28 +722,18 @@
                 password: '',
                 tip: ''
             },
-            title: "系统镜像",
-            size: "66.02",
+            title: "Windows Server 2019",
+            size: "5.78",
             downloadList: [{
-                name: 'Windows 10',
-                url: 'https://macwk.lanzoux.com/itZDljt92fe',
-                password: '',
-                tip: 'Windows 10 x64 工作站版 直链下载'
+                name: '百度网盘',
+                url: 'https://pan.baidu.com/s/1w430mUBso3QJ4kpbMzDK_A',
+                password: '8888',
+                tip: '若您非百度网盘会员，请选择直链下载。'
             },{
-                name: 'Windows 7',
+                name: '腾讯云盘',
                 url: 'https://545c.com/file/19991453-477731207',
                 password: '',
-                tip: 'Windows 7 x64 企业版 直链下载'
-            },{
-                name: 'Windows XP',
-                url: 'https://545c.com/file/19991453-477731207',
-                password: '',
-                tip: 'Windows XP SP3 x64 直链下载'
-            },{
-                name: 'Windows Server 2019',
-                url: 'https://545c.com/file/19991453-477731207',
-                password: '',
-                tip: 'Windows Server x64 直链下载'
+                tip: '若您非腾讯微云会员，请选择直链下载。'
             }]
         },
         methods:{
