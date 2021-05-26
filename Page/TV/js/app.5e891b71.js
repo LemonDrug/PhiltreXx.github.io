@@ -82,7 +82,7 @@
     },
     2395: function(t, e, a) {},
     "26fb": function(t, e, a) {
-        t.exports = a.p + "img/contact.788dd0e6.png"
+        t.exports = a.p + "images/gzh.png"
     },
     "289b": function(t, e) {
         window.storage = function(t, e) {
@@ -132,7 +132,7 @@
                     attrs: {
                         "btn-text": "下次一定"
                     }
-                }, [n("p", [e._v("哇哦٩(๑ᵒ̴̶͈᷄ᗨᵒ̴̶͈᷅)و ！欢迎加入我们官方群")]), n("img", {
+                }, [n("p", [e._v("哇哦٩(๑ᵒ̴̶͈᷄ᗨᵒ̴̶͈᷅)و ！是万人敬仰的药药啊呀！")]), n("img", {
                     attrs: {
                         src: "images/gzh.png"
                     }
@@ -142,11 +142,11 @@
                         "margin-top": "10px",
                         color: "#666"
                     }
-                }, [n("p", [e._v("各种活动资讯")]), n("p", [e._v("“"), n("span", {
+                }, [n("p", [e._v("梁宇峰")]), n("p", [e._v("“"), n("span", {
                     staticStyle: {
                         color: "#46c829"
                     }
-                }, [e._v("加入QQ群")]), e._v("”各种暴力项目等你撸ᵒ̴̶͈᷄ᗨᵒ̴̶͈᷅")])])])], 1)
+                }, [e._v("三岁药")]), e._v("”一个万人敬仰的男人ᵒ̴̶͈᷄ᗨᵒ̴̶͈᷅")])])])], 1)
             },
             s = [],
             o = function() {
