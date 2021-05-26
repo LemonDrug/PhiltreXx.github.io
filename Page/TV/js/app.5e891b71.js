@@ -609,7 +609,7 @@
                     staticClass: "copyright"
                 }, [n("span", {
                     staticClass: "no-select"
-                }, [t._v("© 2021 - " + t._s(t.year) + ",")]), t._v("小高教学网：www.xg3q.com"), t._m(0)]), n("Modal", {
+                }, [t._v("© 2021 - " + t._s(t.year) + ",")]), t._v("梁宇峰"), t._m(0)]), n("Modal", {
                     ref: "contact",
                     staticClass: "contact",
                     attrs: {
@@ -631,7 +631,7 @@
                         staticClass: "links"
                     }, [a("a", {
                         attrs: {
-                            href: "https://www.xg3q.com"
+                            href: "http://www.liangyufeng.com"
                         }
                     }, [t._v("关于我们")])])
                 }
