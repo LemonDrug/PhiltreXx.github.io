@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family:Lobster;
+	src:url(../fonts/Lobster_1.3.otf);	
+}
+body ,html{
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	position: fixed;
+	background-color: #141414;
+	font-family: Lobster;
+	color: #CCCCCC;
+	font-size: 16px;
+}
+body span{
+	color: #a8183a;
+}
+#header {
+	width: 100%;
+	height: 60px;
+	background-color: #1C1717;
+	border-bottom: 1px solid #551C1C;
+	position: relative;
+	z-index: 1;
+}
+#header #logo {
+	height: 60px;
+	display: inline-block;
+	line-height: 60px;
+	margin-left: 30px;
+	font-size: 28px;
+}
+#main {
+	width: 100%;
+	position: fixed;
+	height: 100%;
+	display: table;
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
+}
+#main #content {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	z-index: 0;
+}
+#main #content #details {
+	width: 800px;
+	height: 370px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(0,0,0,0.2);
+	margin-top: -60px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#main #content #details #textDetails {
+	width: 370px;
+	height: 370px;
+	float: left;
+	text-align: right;
+}
+#main #content #details #textDetails ul li {
+	height: 25px;
+	line-height: 25px;
+}
+#ssplayer{
+	float: right;	
+}
+@media only screen and (max-width:480px){
+	body ,html{
+		position:relative;
+	}
+	#header #logo {
+		width:100%;
+		text-align:center;
+		margin-left: 0px;
+	}
+	#main {
+		position: relative;
+	}	
+	#ssplayer{
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#main #content {
+		display: inline-block;
+	}
+	#main #content #details {
+		max-width: 320px;
+		height: auto;
+		padding: 0;
+		margin-top: 0px;
+		display: inline-block;
+	}
+	#main #content #details #textDetails {
+		float:none;
+		width:320px;
+		height:auto;
+		text-align: center;
+	}	
+}

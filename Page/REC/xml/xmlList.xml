@@ -1,0 +1,53 @@
+<main>
+<!--
+in xmlList tag included all the track files with details and covers and audio files in 3 types mp3, wav and ogg
+-->
+<xmlList>
+<!--
+Each trackItem tag is one track for the player list if only one track exist in xml then will not exist list.
+-->
+<!--
+title tag set the title of the song(if empty will auto set as "Unknown Title Track")
+-->
+<!--
+album tag set the album name of the song(if empty will auto set as "Unknown Album")
+-->
+<!--
+artist tag set the artist name of the song(if empty will auto set as "Unknown Artist")
+-->
+<!--
+cover tag set the cover of the album(if empty will auto set default picture)
+-->
+<!-- trackMpeg tag set the audio in mp3 format -->
+<!-- trackWav tag set the audio in wav format -->
+<!-- trackOgg tag set the audio in ogg format -->
+<trackItem>
+<title>Creep Instrumental</title>
+<album/>
+<artist/>
+<cover>images/thumb1.jpg</cover>
+<trackMpeg>mp3/wm_creep_instrumental.mp3</trackMpeg>
+<trackWav>mp3/wm_creep_instrumental.wav</trackWav>
+<trackOgg>mp3/wm_creep_instrumental.ogg</trackOgg>
+</trackItem>
+<trackItem>
+<title>Far Away</title>
+<album/>
+<artist/>
+<cover>images/thumb2.jpg</cover>
+<trackMpeg>mp3/wm_far_away.mp3</trackMpeg>
+<trackWav>mp3/wm_far_away.wav</trackWav>
+<trackOgg>mp3/wm_far_away.ogg</trackOgg>
+</trackItem>
+<trackItem>
+<title>Follow Me</title>
+<album/>
+<artist/>
+<cover>images/thumb3.jpg</cover>
+<trackMpeg>mp3/wm_follow_me.mp3</trackMpeg>
+<trackWav>mp3/wm_follow_me.wav</trackWav>
+<trackOgg>mp3/wm_follow_me.ogg</trackOgg>
+</trackItem>
+
+</xmlList>
+</main>
