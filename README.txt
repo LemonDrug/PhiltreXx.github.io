@@ -18,4 +18,4 @@
 
 ----------------------------------------------------
 
-http://it.liangyufeng.com
+http://liangyufeng.com
